@@ -6,4 +6,5 @@ VER="$(cat VERSION 2>/dev/null || echo 0.1.0)"
 rm -rf dist
 mkdir -p dist
 sed "s/{{ version }}/$VER/g" templates/index.html > dist/index.html
+printf '%s\n' 'v0.1.1' > dist/shell/SHELL_PIN 2>/dev/null || mkdir -p dist/shell && printf '%s\n' 'v0.1.1' > dist/shell/SHELL_PIN
 printf '%s\n' "{\"status\":\"ok\",\"version\":\"$VER\"}" > dist/health.json
