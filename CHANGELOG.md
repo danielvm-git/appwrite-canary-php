@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- big-release managed -->
 
+## [1.1.0] - 2026-11-24
+
+### Added
+
+- **feat:** form slice on PHP canary page ([#3](https://github.com/danielvm-git/appwrite-canary-php/issues/3)) ([ea27984](https://github.com/danielvm-git/appwrite-canary-php/commit/ea2798402ac3cc6168804832de1b03a8e8d7edcd))
+
 ## [1.0.0] - 2026-11-24
 
 ### Changed
