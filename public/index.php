@@ -22,7 +22,18 @@ if ($uri === '/health') {
 <html lang="en">
   <head><meta charset="utf-8"><title>Appwrite Canaries — PHP</title></head>
   <body>
-    <h1>PHP canary</h1>
+    <h1>Hello World</h1>
+    <p>PHP canary on Appwrite Sites.</p>
+    <section>
+      <h2>Form slice</h2>
+      <form method="get" action="">
+        <label>Name <input name="name" type="text" /></label>
+        <button type="submit">Send</button>
+      </form>
+      <?php if (!empty($_GET['name'])): ?>
+        <p class="mono">Hello, <?= htmlspecialchars((string) $_GET['name'], ENT_QUOTES) ?></p>
+      <?php endif; ?>
+    </section>
     <footer class="app-footer">v<?= htmlspecialchars(canary_version(), ENT_QUOTES) ?></footer>
   </body>
 </html>
