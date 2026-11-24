@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- big-release managed -->
 
+## [1.2.0] - 2026-11-24
+
+### Added
+
+- **feat:** e09 todo parity (shell v2, share-task-php) ([#5](https://github.com/danielvm-git/appwrite-canary-php/issues/5)) ([d6859af](https://github.com/danielvm-git/appwrite-canary-php/commit/d6859afdccc511e3de4ae9897673d4b28b83a1ed))
+
 ## [1.1.0] - 2026-11-24
 
 ### Added
